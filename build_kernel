@@ -1,0 +1,58 @@
+Manpage for build_kernel
+ 
+
+NAME 
+	
+build_kernel
+
+
+SYNOPSIS
+
+"./build_kernel.sh"
+
+
+DESCRIPTION
+
+This script will build a Linux kernel with a preset configuration (No V4L platform devices, No webcam support)
+ and the script will compile and compress the kernel to then finish by installing modules and copying them to backup locations.
+
+
+OPTIONS
+
+No available options
+
+
+FILES
+
+.config
+linux/ files
+
+
+ENVIRONMENT
+
+linux/
+current_directory/
+
+
+DIAGNOSTICS
+
+No errors found to diagnose so far
+
+
+BUGS
+
+No found bugs
+
+
+AUTHOR
+
+Christian Phongsavan <s3781816@student.rmit.edu.au>
+
+
+SEE ALSO
+
+No available resources
+
+
+Last change: OCTOBER 2020
+

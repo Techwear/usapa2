@@ -1,8 +1,5 @@
 
 #!/bin/bash
-#Variables
-kernel_path=linux/
-
 #Installing prerequisite packages, script user must run script with sudo so the script doesn't ask for a password
 echo "[SCRIPT] Installing prerequisites for kernel."
 sudo apt install raspberrypi-kernel-headers build-essential bc git wget bison flex libssl-dev make
