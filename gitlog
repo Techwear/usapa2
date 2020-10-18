@@ -1,0 +1,108 @@
+commit 8e5c9d3f382ff2dbb01497ff790001be62f05501
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 17:48:21 2020 +1100
+
+    planned script 3
+
+commit 5b7385f4401e71bed1490515a21a511678d9f458
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 17:37:41 2020 +1100
+
+    added man page for 2nd script
+
+commit 5ad946a55f7a035fd0e129e1b20dcc28d1d8837f
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 16:15:01 2020 +1100
+
+    if statements in both scripts added
+
+commit 16002c1771c7066633f99e61cd87f785c1c59eab
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 16:06:42 2020 +1100
+
+    added sleeps in between readings
+
+commit 7e71ce38258a0e3b4756b68598bc5b317c891474
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 15:35:26 2020 +1100
+
+    2nd script runs in 1st script before compling
+
+commit 06b28c1d0f67349fb6f834abd6d71d78fc703c95
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 15:23:24 2020 +1100
+
+    added on of the info i want to read
+
+commit c52fae6d13200880a9b9d95cba5b20d892c32537
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 15:09:10 2020 +1100
+
+    3rd script
+
+commit fd770d609c354187d0c719148803b346304e7e08
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 14:58:16 2020 +1100
+
+    2nd script can write to file
+
+commit 4a2b0b25bc1028769bcff490e74d62d8bf880408
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 14:36:01 2020 +1100
+
+    added temp and version cmd to performance script
+
+commit 8ce29739eca61f003ab588b22d0876371c2d0b3e
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 14:05:41 2020 +1100
+
+    added file to write to for performance script
+
+commit 988a7ccfda7cb40af837a72a1522c51f4af7bf37
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 13:46:34 2020 +1100
+
+    created performace script
+
+commit 289bb5b21e81099f7b0d10c2f16ead51b9df41f0
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 13:44:55 2020 +1100
+
+    added || return to cd cmd
+
+commit 66a57b3fd6f5f1120f5b108457494e961728ce2e
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 04:27:27 2020 +1100
+
+    removed unused variable in script, added man page
+
+commit 843fcf324a4097782ceebc7d44675f6654625230
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sun Oct 18 03:07:25 2020 +1100
+
+    finished build_kernel script
+
+commit 145525bb0a4cc2b5f8d104f88488eca2115c0d8a
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sat Oct 17 23:38:01 2020 +1100
+
+    able to access .config from repo
+
+commit 0c79860f647d84bd4b8b012945aa3de5f2a9a815
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sat Oct 17 21:19:28 2020 +1100
+
+    planned out script 1
+
+commit a77aae6364db36078473a80c2585620dc2cb2e87
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sat Oct 17 19:16:55 2020 +1100
+
+    Created first script and added installing pre req line
+
+commit 444314eef0df20f0ea7f7b08d8293d0047d618ef
+Author: Christian Phongsavan <s3781816@student.rmit.edu.au>
+Date:   Sat Oct 17 18:15:23 2020 +1100
+
+    Adding .config file from linux kernel.
+    Christian Phongsavan S3781816
