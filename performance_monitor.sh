@@ -2,10 +2,10 @@
 #Get information about the performance of my pi while compling kernel
 
 #Version
-echo "[SCRIPT] Version of VideoCore firmware" 
-vcgencmd version
+echo "[SCRIPT] Writing version of VideoCore firmware to file" 
+vcgencmd version >> kernel_performance_data 
 echo " "
 
 #Temperature of Pi
-echo "[SCRIPT] Temperature of Pi"
-vcgencmd measure_temp
+echo "[SCRIPT] Writing temperature of Pi to file"
+vcgencmd measure_temp >> kernel_performance_data
