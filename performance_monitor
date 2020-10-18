@@ -1,0 +1,39 @@
+Manpage for performance_monitor
+
+
+NAME: performance_monitor
+
+
+SYNOPSIS: "./performance_monitor"
+
+
+DESCRIPTION: A script that utilizes vcgencmd to print the pi's VideoCore firmware version, temperature
+of the pi, throttled state, cpu memory, gpu memory and cpu clock frequency to a readable file named
+kernel_performance_data
+
+
+OPTIONS: No available options
+
+
+FILES: kernel_performance_data 
+The script will write data into this file
+
+
+ENVIRONMENT: kernel_performance_data will be created for all of the variables to be written into
+
+
+DIAGNOSTICS: No known errors to diagnose
+
+
+BUGS: No bugs found
+
+
+AUTHOR: Christian Phongsavan <S3781816@student.rmit.edu.au>
+
+
+SEE ALSO: No available resources
+
+
+Last change: OCTOBER 2020
+
+
