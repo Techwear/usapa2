@@ -15,7 +15,7 @@ echo "[SCRIPT] Move .config to linux folder"
 sudo cp .config linux/
 
 #Compile and copy files
-cd linux/
+cd linux/ || return
 echo "[SCRIPT] Compiling kernel"
 make -j4 zImage modules dtbs
 echo "[SCRIPT] Copying files to final locations"
