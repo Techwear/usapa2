@@ -2,9 +2,6 @@
 #Get information about the performance of my pi while compling kernel
 #Need to run this script before it compling on first script
 
-#PID on first script
-
-
 #Version
 echo "[SCRIPT] Writing version of VideoCore firmware to file" 
 vcgencmd version >> kernel_performance_data 
@@ -28,7 +25,9 @@ sleep 2
 vcgencmd measure_clock arm >> kernel_performance_data
 
 #STOP SCRIPT WHEN USR1 SIGNAL IS RECIEVED BY SCRIPT 1
-if ["" == ""]; then
+#If signal is recieved; close script
+if ["" == ""]; 
+then
 echo "[SCRIPT] Closing performance monitoring script"
 exit
 fi

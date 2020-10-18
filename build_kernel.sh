@@ -16,14 +16,23 @@ sudo cp .config linux/
 
 #RUN 2ND SCRIPT BEFORE COMPLING
 #Get performance script on Github
+echo "[SCRIPT] Obtain performance monitoring script"
 wget https://raw.githubusercontent.com/Techwear/usapa2/master/performance_monitor.sh
 chmod a+x performance_monitor.sh
+echo "[SCRIPT] Running performaance monitoring script"
 ./performance_monitor.sh
 
 #Compile and copy files
 cd linux/ || return
 echo "[SCRIPT] Compiling kernel"
 make -j4 zImage modules dtbs
+
+#SEND USR1 SIGNAL TO 2ND SCRIPT SO IT STOPS RUNNING
+if [1 == 1]
+then
+#Send signal
+fi
+
 echo "[SCRIPT] Copying files to final locations"
 sudo make modules_install
 sudo cp arch/arm/boot/dts/*.dtb /boot/
