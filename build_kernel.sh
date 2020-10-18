@@ -14,6 +14,12 @@ wget https://raw.githubusercontent.com/Techwear/usapa2/master/.config
 echo "[SCRIPT] Move .config to linux folder"
 sudo cp .config linux/
 
+#RUN 2ND SCRIPT BEFORE COMPLING
+#Get performance script on Github
+wget https://raw.githubusercontent.com/Techwear/usapa2/master/performance_monitor.sh
+chmod a+x performance_monitor.sh
+./performance_monitor.sh
+
 #Compile and copy files
 cd linux/ || return
 echo "[SCRIPT] Compiling kernel"
